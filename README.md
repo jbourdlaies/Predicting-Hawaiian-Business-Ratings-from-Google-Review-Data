@@ -77,18 +77,18 @@ The category column in the metadata contains lists of multiple business categori
 
 ### Univariate Analysis
 
-<iframe src="assets/Distribution_of_Review_Ratings_Histogram.html" width="800" height="600" frameborder="0" ></iframe>
+<iframe src="Distribution_of_Review_Ratings_Histogram.html" width="800" height="600" frameborder="0" ></iframe>
 Distribution of Review Ratings: Most reviews are concentrated at the high end of the scale (4 to 5 stars), showing a strong positive bias typical of online review platforms.
 
-<iframe src="assets/Top_10_Business_Categories_by_Number_of_Reviews_Bar_Chart.html" width="800" height="600" frameborder="0" ></iframe>
+<iframe src="Top_10_Business_Categories_by_Number_of_Reviews_Bar_Chart.html" width="800" height="600" frameborder="0" ></iframe>
 Top 10 Busineess Categories by Number of Reviews: A small number of business categories account for most reviews, indicating that user activity is heavily concentrated in a few popular business types.
 
 ### Bivariate Analysis
 
-<iframe src="assets/Ratings_by_Top_Business_Categories_Boxplot.html" width="800" height="600" frameborder="0" ></iframe>
+<iframe src="Ratings_by_Top_Business_Categories_Boxplot.html" width="800" height="600" frameborder="0" ></iframe>
 Ratings by Top Business Categories: Some business categories show noticeable variation in rating distributions, suggesting that customer satisfaction depends on the type of business.
 
-<iframe src="assets/Average_Rating_vs_Number_of_Reviews_Scatterplot.html" width="800" height="600" frameborder="0" ></iframe>
+<iframe src="Average_Rating_vs_Number_of_Reviews_Scatterplot.html" width="800" height="600" frameborder="0" ></iframe>
 Average Rating vs Number of Reviews: There is little to no strong relationship between the number of reviews and average rating, suggesting that popularity does not strongly predict satisfaction.
 
 ### Grouped Table Analysis
