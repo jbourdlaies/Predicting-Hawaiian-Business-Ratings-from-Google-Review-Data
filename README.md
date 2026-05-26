@@ -62,18 +62,18 @@ The category column in the metadata contains lists of multiple business categori
 
 ### Cleaned Dataset Preview
 
-|   rating | primary_category   |   avg_rating |   num_of_reviews | datetime                   |
-|---------:|:-------------------|-------------:|-----------------:|:---------------------------|
-|        5 | Recreation center  |          4.1 |               18 | 2020-06-11 01:45:03.487000 |
-|        5 | Recreation center  |          4.1 |               18 | 2020-06-11 01:45:03.487000 |
-|        5 | Recreation center  |          4.1 |               18 | 2019-09-09 19:56:58.979000 |
-|        5 | Recreation center  |          4.1 |               18 | 2019-09-09 19:56:58.979000 |
-|        5 | Recreation center  |          4.1 |               18 | 2020-07-16 07:46:28.335000 |
-|        5 | Recreation center  |          4.1 |               18 | 2020-07-16 07:46:28.335000 |
-|        5 | Recreation center  |          4.1 |               18 | 2019-12-10 04:12:11.613000 |
-|        5 | Recreation center  |          4.1 |               18 | 2019-12-10 04:12:11.613000 |
-|        3 | Recreation center  |          4.1 |               18 | 2019-11-06 21:45:23.916000 |
-|        3 | Recreation center  |          4.1 |               18 | 2019-11-06 21:45:23.916000 |
+|     user_id | name_x            |          time |   rating |   avg_rating |   num_of_reviews | price   | primary_category   |
+|------------:|:------------------|--------------:|---------:|-------------:|-----------------:|:--------|:-------------------|
+| 1.13965e+20 | manuel grimaldo   | 1591839903487 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.13965e+20 | manuel grimaldo   | 1591839903487 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.16656e+20 | Enrique Lara      | 1568059018979 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.16656e+20 | Enrique Lara      | 1568059018979 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.00834e+20 | Gregory Donaldson | 1594885588335 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.00834e+20 | Gregory Donaldson | 1594885588335 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.03207e+20 | Brian Baker       | 1575951131613 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.03207e+20 | Brian Baker       | 1575951131613 |        5 |          4.1 |               18 |         | Recreation center  |
+| 1.08526e+20 | Kam J             | 1573076723916 |        3 |          4.1 |               18 |         | Recreation center  |
+| 1.08526e+20 | Kam J             | 1573076723916 |        3 |          4.1 |               18 |         | Recreation center  |
 
 ### Univariate Analysis
 
