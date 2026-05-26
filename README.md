@@ -62,18 +62,20 @@ The category column in the metadata contains lists of multiple business categori
 
 ### Cleaned Dataset Preview
 
-|     user_id | name_x            |          time |   rating |   avg_rating |   num_of_reviews | price   | primary_category   |
-|------------:|:------------------|--------------:|---------:|-------------:|-----------------:|:--------|:-------------------|
-| 1.13965e+20 | manuel grimaldo   | 1591839903487 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.13965e+20 | manuel grimaldo   | 1591839903487 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.16656e+20 | Enrique Lara      | 1568059018979 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.16656e+20 | Enrique Lara      | 1568059018979 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.00834e+20 | Gregory Donaldson | 1594885588335 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.00834e+20 | Gregory Donaldson | 1594885588335 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.03207e+20 | Brian Baker       | 1575951131613 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.03207e+20 | Brian Baker       | 1575951131613 |        5 |          4.1 |               18 |         | Recreation center  |
-| 1.08526e+20 | Kam J             | 1573076723916 |        3 |          4.1 |               18 |         | Recreation center  |
-| 1.08526e+20 | Kam J             | 1573076723916 |        3 |          4.1 |               18 |         | Recreation center  |
+|     user_id |            name_x |          time |   rating |   avg_rating |   num_of_reviews |   price |   primary_category |
+|------------:|------------------:|--------------:|---------:|-------------:|-----------------:|--------:|-------------------:|
+| 1.13965e+20 |   manuel grimaldo | 1591839903487 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.13965e+20 |   manuel grimaldo | 1591839903487 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.16656e+20 |      Enrique Lara | 1568059018979 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.16656e+20 |      Enrique Lara | 1568059018979 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.00834e+20 | Gregory Donaldson | 1594885588335 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.00834e+20 | Gregory Donaldson | 1594885588335 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.03207e+20 |       Brian Baker | 1575951131613 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.03207e+20 |       Brian Baker | 1575951131613 |        5 |          4.1 |               18 |         |  Recreation center |
+| 1.08526e+20 |             Kam J | 1573076723916 |        3 |          4.1 |               18 |         |  Recreation center |
+| 1.08526e+20 |             Kam J | 1573076723916 |        3 |          4.1 |               18 |         |  Recreation center |
+
+Note that these are only the first few rows of the dataframe. There are many other average ratings (such as 4.6) and many other primary categories (such as Waterfall)
 
 ### Univariate Analysis
 
@@ -93,18 +95,18 @@ Average Rating vs Number of Reviews: There is little to no strong relationship b
 
 ### Grouped Table Analysis
 
-| primary_category     |   avg_rating |   review_count |
-|:---------------------|-------------:|---------------:|
-| Shopping mall        |      4.25189 |         114600 |
-| Restaurant           |      4.29301 |          79488 |
-| Park                 |      4.51472 |          75867 |
+|     primary_category |   avg_rating |   review_count |
+|---------------------:|-------------:|---------------:|
+|        Shopping mall |      4.25189 |         114600 |
+|           Restaurant |      4.29301 |          79488 |
+|                 Park |      4.51472 |          75867 |
 | Fast food restaurant |      3.90775 |          50191 |
-| Hawaiian restaurant  |      4.40168 |          47886 |
-| Seafood restaurant   |      4.39293 |          45688 |
-| Hotel                |      4.34842 |          45640 |
-| Grocery store        |      4.30913 |          36845 |
-| Tourist attraction   |      4.52697 |          33095 |
-| Coffee shop          |      4.38879 |          30114 |
+|  Hawaiian restaurant |      4.40168 |          47886 |
+|   Seafood restaurant |      4.39293 |          45688 |
+|                Hotel |      4.34842 |          45640 |
+|        Grocery store |      4.30913 |          36845 |
+|   Tourist attraction |      4.52697 |          33095 |
+|          Coffee shop |      4.38879 |          30114 |
 
 This table highlights which business categories are most common in the dataset and how they perform in terms of average rating. While some categories dominate in volume, their ratings remain relatively similar, suggesting that popularity does not necessarily imply higher satisfaction.
 
