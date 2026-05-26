@@ -105,6 +105,7 @@ Average Rating vs Number of Reviews: There is little to no strong relationship b
 | Grocery store        |      4.30913 |          36845 |
 | Tourist attraction   |      4.52697 |          33095 |
 | Coffee shop          |      4.38879 |          30114 |
+
 This table highlights which business categories are most common in the dataset and how they perform in terms of average rating. While some categories dominate in volume, their ratings remain relatively similar, suggesting that popularity does not necessarily imply higher satisfaction.
 
 ## Assessment of Missingness
